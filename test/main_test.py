@@ -4,8 +4,10 @@ from datetime import datetime, date, time, timedelta
 
 import constantes
 sys.path.append('..')
+
 from brujula.exception.brujula_exception import BrujulaException
-#Incorporar las importaciones necesarias para que los test se ejecuten de forma correcta
+from brujula.core.models import Person, Professor, ActingProfessor, DepartmentProfessors
+
 
 class MainTest(unittest.TestCase):
 
